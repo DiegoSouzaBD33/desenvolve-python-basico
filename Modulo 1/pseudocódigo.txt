@@ -1,0 +1,16 @@
+pseudocódigo:
+
+ALGORITMO TabuadaDoNove
+  VAR
+    n: inteiro;
+    dezena: inteiro;
+    unidade: inteiro;
+    resultado: inteiro;
+  INÍCIO
+    ESCREVA "Digite um número de 1 a 9: "
+    LEIA n
+    dezena := n - 1
+    unidade := 10 - n
+    resultado := dezena * 10 + unidade
+    ESCREVA "O resultado de 9 x ", n, " é ", resultado
+  FIM
